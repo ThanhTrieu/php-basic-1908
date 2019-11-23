@@ -13,7 +13,8 @@
 	echo $kq;
 	
 	// viet ham theo php 7 tinh giai thua cua 1 so
-	function tinhGiaiThua( int $n) : int {
+	function tinhGiaiThua( int $n) : int
+	{
 		if($n < 0){
 			return 0;
 		}
