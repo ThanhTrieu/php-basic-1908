@@ -29,6 +29,7 @@
                     </div>
                 </div>
             </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="js-result"></div>
         </div>
     </div>
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
@@ -43,7 +44,24 @@
                        type: "post",
                        data: { nameSingle: name },
                        beforeSend: function () {
-                       
+                           // truoc khi nhan dc du lieu ve - thi chung ta lam gi do
+                           // bao hieu nguoi vui long doi ket qua tra ve
+                           // hien thi show loading
+                           $('#loading').show();
+                       },
+                       success: function (result) {
+                           // an loading data
+                           $('#loading').attr('style', 'display: none !important');
+                           
+                           // cho doi ket qua tu phia server tra
+                           // du lieu tra ve thong qua tham so trong function (result)
+                           result = $.trim(result);
+                           if(result === 'blank'){
+                               alert('Vui long nhap du lieu');
+                           } else {
+                               // hien thi ket qua len giao dien
+                               $('#js-result').html(result);
+                           }
                        }
                    });
                } else {
