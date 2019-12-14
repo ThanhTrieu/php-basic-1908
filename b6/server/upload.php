@@ -18,7 +18,7 @@ if(isset($_POST['btnUpload'])) {
 				// tien hanh upload
 				$up = move_uploaded_file($tmpName, UPLOAD_PATH . $nameFile);
 				if($up){
-					header("Location:../index4.php?state=ok");
+					header("Location:../index4.php?state=ok&files={$nameFile}");
 				} else {
 					header("Location:../index4.php?state=fail");
 				}
