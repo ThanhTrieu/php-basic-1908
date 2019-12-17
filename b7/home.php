@@ -3,6 +3,10 @@
 	$user = $_SESSION['username'] ?? '';
 	
 	$cookie = $_COOKIE['cookieApp'] ?? '';
+	
+	// nhung file
+	require_once "checkLogin.php";
+	checkUserLogin();
 ?>
 
 <!doctype html>

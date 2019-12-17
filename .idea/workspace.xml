@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddb79eba-def0-4c3f-9d31-d22500921495" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b6/server/multi-upload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b7/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b7/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b7/index2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b7/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b7/server/handleLogin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b7/checkLogin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b7/server/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b8/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b8/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b8/server/sendmail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b8/server/sendmail2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/b6/index4.php" beforeDir="false" afterPath="$PROJECT_DIR$/b6/index4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/b6/server/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/b6/server/upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b7/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/b7/home.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,28 +25,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/b7/login.php">
+        <entry file="file://$PROJECT_DIR$/b8/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="19" column="59" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/b7/server/handleLogin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="36" />
+            <state relative-caret-position="-7">
+              <caret line="15" column="68" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/b7/home.php">
+        <entry file="file://$PROJECT_DIR$/b8/server/sendmail2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="234">
+              <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
+              <folding>
+                <element signature="e#94#128#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/b8/server/src/PHPMailer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/b8/server/sendmail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="16" column="63" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -89,14 +99,19 @@
         <option value="$PROJECT_DIR$/b7/index2.php" />
         <option value="$PROJECT_DIR$/b7/login.php" />
         <option value="$PROJECT_DIR$/b7/server/handleLogin.php" />
+        <option value="$PROJECT_DIR$/b7/server/logout.php" />
+        <option value="$PROJECT_DIR$/b7/checkLogin.php" />
         <option value="$PROJECT_DIR$/b7/home.php" />
+        <option value="$PROJECT_DIR$/b8/server/sendmail.php" />
+        <option value="$PROJECT_DIR$/b8/index.php" />
+        <option value="$PROJECT_DIR$/b8/server/sendmail2.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="993" />
+    <option name="width" value="1440" />
+    <option name="height" value="816" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -106,6 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,25 +132,31 @@
             <path>
               <item name="lphp1908e" type="b2602c69:ProjectViewProjectNode" />
               <item name="lphp1908e" type="462c0819:PsiDirectoryNode" />
-              <item name="b7" type="462c0819:PsiDirectoryNode" />
+              <item name="b8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lphp1908e" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lphp1908e" type="462c0819:PsiDirectoryNode" />
+              <item name="b8" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/b6/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/b8/css" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/b8/css" />
       <recent name="$PROJECT_DIR$/b6/css" />
     </key>
   </component>
@@ -177,17 +199,21 @@
       <workItem from="1576231995499" duration="170000" />
       <workItem from="1576232180736" duration="98000" />
       <workItem from="1576232291205" duration="9382000" />
-      <workItem from="1576286921568" duration="65000" />
+      <workItem from="1576286921568" duration="173000" />
+      <workItem from="1576287115564" duration="363000" />
+      <workItem from="1576331698400" duration="559000" />
+      <workItem from="1576468599515" duration="12000" />
+      <workItem from="1576577731578" duration="6634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76421000" />
+    <option name="totallyTimeSpent" value="84097000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="993" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="816" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09531417" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16309012" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -200,7 +226,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3104435" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.28815976" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -416,22 +442,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/b7/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="19" column="59" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="59" />
+        <state relative-caret-position="410">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b7/checkLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/b7/server/handleLogin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="406">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/b7/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="264">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b7/server/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b8/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b8/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b8/server/src/PHPMailer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b8/img/email.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b8/server/sendmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b8/server/sendmail2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
+          <folding>
+            <element signature="e#94#128#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
