@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddb79eba-def0-4c3f-9d31-d22500921495" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/b12/app/configs/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b12/app/controllers/Home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b12/app/models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b12/app/views/home_view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b12/controllers/Home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b12/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b12/index2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b12/index3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b12/index4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b12/models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b13/app/controller/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b13/app/model/Home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b13/app/model/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b13/bootstrap/Bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b13/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b13/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b13/index2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b13/index3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b13/index4.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,13 +36,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -106,7 +106,8 @@
       <workItem from="1577441762907" duration="9545000" />
       <workItem from="1577497615282" duration="21000" />
       <workItem from="1581391580637" duration="1994000" />
-      <workItem from="1581420037579" duration="10249000" />
+      <workItem from="1581420037579" duration="11834000" />
+      <workItem from="1581673236411" duration="12343000" />
     </task>
     <servers />
   </component>
@@ -114,14 +115,15 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="541" y="363" key="NewPhpFileDialog" timestamp="1581430513110">
+    <state x="541" y="363" key="NewPhpFileDialog" timestamp="1581688044312">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="541" y="363" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1581430513110" />
-    <state x="229" y="68" key="SettingsEditor" timestamp="1581420058386">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state x="541" y="363" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1581688044312" />
+    <state x="229" y="68" key="SettingsEditor" timestamp="1581699015102">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="229" y="68" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1581420058386" />
+    <state x="229" y="68" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1581678956056" />
+    <state x="229" y="68" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1581699015102" />
   </component>
   <component name="masterDetails">
     <states>
